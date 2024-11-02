@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>@import url(CSS/styles.css);</style>
+
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Formulário de inscrição</b></legend> 
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <label for="nome" class="labelInput">Nome Completo</label>
+                </div>
+
+                <br><br>
+
+                <div class="inputBox">
+                    <input type="email" name="email" id="email" class="inputUser" required>
+                    <label for="email" class="labelInput">E-mail</label>
+                </div>
+
+                <br><br>
+
+                <div class="inputBox">
+                    <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                    <label for="telefone" class="labelInput">Telefone</label>
+                </div>
+
+                <br>
+
+                <p>Sexo: </p>
+                <input type="radio" id="feminino" name="genero" value="feminino" required>
+                <label for="feminino">Feminino</label>
+                <br>
+                <input type="radio" id="masculino" name="genero" value="masculino" required>
+                <label for="masculino">Masculino</label>
+                <br>
+                <input type="radio" id="outro" name="genero" value="outro" required>
+                <label for="outro">Outro</label>
+
+                <br><br>
+
+                
+
+                <div class="inputBox">
+                    <label for="data"><b>Data de nascimento</b></label>
+                    <input type="date" name="data" id="data" class="inputData" required>
+                </div>
+
+                <br><br>
+
+                <label for="insc">Tipo de inscrição</label> 
+                <select name="select" id="insc" class="inputUser" required>
+                    <option>Palestrante</option>
+                    <option>Participante</option>
+                    <option>Voluntário</option>
+                </select>
+
+                <br><br>
+
+                <div>
+                    <label for="mensagem" >Mensagem</label>
+                    <textarea style="resize: none" minlength="1" maxlength="200" name="mensagem" id="mensagem" class="inputUser" required></textarea>
+                </div>
+
+                <br><br>
+               
+                <button type="submit" name="submit" id="submit">Cadastrar</button>
+                <button type="reset" name="clean" id="clean">Limpar</button>
+
+            </fieldset>
+        </form>
+    </div>
+
+</body>
+</html>
