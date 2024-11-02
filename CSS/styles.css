@@ -85,3 +85,40 @@ legend
     padding: 3px;
     outline: none;
 }
+
+#submit
+{
+    background-image: linear-gradient(to right, blue, blueviolet);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    width: 49%;
+    cursor: pointer; 
+}
+#submit:hover
+{
+    background-image: linear-gradient(to right, rgb(3, 3, 117), rgb(78, 25, 128));
+    
+}
+
+#clean
+{
+    background-image: linear-gradient(to right, blue, blueviolet);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    width: 49%;
+    cursor: pointer;
+}
+
+#clean:hover
+{
+    background-image: linear-gradient(to right, rgb(3, 3, 117), rgb(78, 25, 128));
+    
+}
